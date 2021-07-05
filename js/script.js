@@ -20,3 +20,8 @@ for (var i = 1; i < 101; i++){
         print += ("<li>" + i + "</li>");
     }
 }
+
+
+//Print in HTML
+
+numbList.innerHTML = print;
